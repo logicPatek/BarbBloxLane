@@ -61,7 +61,7 @@ local ImageLabel = Instance.new("ImageLabel")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
-Screen.Gui.ZIndex = 100000
+
 
 drag.Name = "drag"
 drag.Parent = ScreenGui
