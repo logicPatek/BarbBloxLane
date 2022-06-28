@@ -1,4 +1,4 @@
-game.ReplicatedStorage.ToolEvents.pride:FireServer();
+
 	print("Basdadasdadas")
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Barb-Blox Lane"; 
