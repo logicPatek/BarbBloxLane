@@ -1,0 +1,562 @@
+game.ReplicatedStorage.ToolEvents.pride:FireServer();
+	print("Basdadasdadas")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "this script is super garbage and broken press any button in the ui to fix it";
+		Icon = "";
+		Duration = 10; 
+	})
+
+local ScreenGui = Instance.new("ScreenGui")
+local drag = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_3 = Instance.new("UICorner")
+local Weapons = Instance.new("TextLabel")
+local Glock = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local Uzi = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local AK47 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ShotGun = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local FireAxe = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local GolfClub = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local PrideFlag = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Teleports = Instance.new("TextLabel")
+local InsideVault = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local SS = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SS2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local SS3 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Infrontofbank = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Other = Instance.new("TextLabel")
+local Speed = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local IF = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+drag.Name = "drag"
+drag.Parent = ScreenGui
+drag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+drag.BackgroundTransparency = 1
+drag.BorderSizePixel = 0
+drag.Position = UDim2.new(0.805486085, 0, 0.75983396, 5)
+drag.Size = UDim2.new(0, 356, 0, 38)
+drag.ZIndex = 100
+
+Frame.Parent = drag
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(-0.00249147415, 0, 0.0209678411, 0)
+Frame.Size = UDim2.new(0, 356, 0, 221)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 1)
+Frame_2.Size = UDim2.new(0, 356, 0, 38)
+
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 1)
+Frame_3.BorderSizePixel = 0
+Frame_3.LayoutOrder = 1
+Frame_3.Position = UDim2.new(0, 0, 0.085972853, 0)
+Frame_3.Size = UDim2.new(0, 356, 0, 19)
+Frame_3.ZIndex = 100
+
+TextLabel.Parent = Frame_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.13202247, 0, -1.42105258, 0)
+TextLabel.Size = UDim2.new(0, 261, 0, 55)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Barb-Blox Lane"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.0112359552, 0, 0.171945706, 0)
+ScrollingFrame.Size = UDim2.new(0, 348, 0, 174)
+ScrollingFrame.BottomImage = "http://www.roblox.com/asset/?id=444971915"
+ScrollingFrame.CanvasPosition = Vector2.new(0, 268)
+ScrollingFrame.MidImage = "http://www.roblox.com/asset/?id=444957303"
+ScrollingFrame.ScrollBarThickness = 0
+ScrollingFrame.TopImage = "http://www.roblox.com/asset/?id=444972008"
+
+UICorner_3.Parent = ScrollingFrame
+
+Weapons.Name = "Weapons"
+Weapons.Parent = ScrollingFrame
+Weapons.BackgroundColor3 = Color3.fromRGB(255, 255, 1)
+Weapons.BorderSizePixel = 0
+Weapons.Position = UDim2.new(0, 0, 0.0204526633, 0)
+Weapons.Size = UDim2.new(0, 348, 0, 24)
+Weapons.Font = Enum.Font.Gotham
+Weapons.Text = "Items"
+Weapons.TextColor3 = Color3.fromRGB(0, 0, 0)
+Weapons.TextSize = 14.000
+
+Glock.Name = "Glock"
+Glock.Parent = Weapons
+Glock.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+Glock.Position = UDim2.new(0.0187356174, 0, 1.58333325, 0)
+Glock.Size = UDim2.new(0, 104, 0, 25)
+Glock.Font = Enum.Font.SourceSans
+Glock.Text = "Glock-17"
+Glock.TextColor3 = Color3.fromRGB(255, 255, 1)
+Glock.TextSize = 14.000
+Glock.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.GlockEvent:FireServer();
+	print("Bought Glock-17")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Glock";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+    
+
+UICorner_4.Parent = Glock
+
+UICorner_5.Parent = Weapons
+
+Uzi.Name = "Uzi"
+Uzi.Parent = Weapons
+Uzi.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+Uzi.Position = UDim2.new(0.349195391, 0, 1.58333325, 0)
+Uzi.Size = UDim2.new(0, 104, 0, 25)
+Uzi.Font = Enum.Font.SourceSans
+Uzi.Text = "Uzi"
+Uzi.TextColor3 = Color3.fromRGB(255, 255, 1)
+Uzi.TextSize = 14.000
+Uzi.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.UziEvent:FireServer();
+	print("Bought Uzi")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Uzi";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_6.Parent = Uzi
+
+AK47.Name = "AK-47"
+AK47.Parent = Weapons
+AK47.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+AK47.Position = UDim2.new(0.679655194, 0, 1.58333325, 0)
+AK47.Size = UDim2.new(0, 104, 0, 25)
+AK47.Font = Enum.Font.SourceSans
+AK47.Text = "AK-47"
+AK47.TextColor3 = Color3.fromRGB(255, 255, 1)
+AK47.TextSize = 14.000
+AK47.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.KatanaEvent:FireServer();
+	print("Bought AK-47")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought AK-47";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_7.Parent = AK47
+
+ShotGun.Name = "ShotGun"
+ShotGun.Parent = Weapons
+ShotGun.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+ShotGun.Position = UDim2.new(0.0187356174, 0, 3.08333325, 0)
+ShotGun.Size = UDim2.new(0, 104, 0, 25)
+ShotGun.Font = Enum.Font.SourceSans
+ShotGun.Text = "Shot Gun"
+ShotGun.TextColor3 = Color3.fromRGB(255, 255, 1)
+ShotGun.TextSize = 14.000
+ShotGun.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.ShotEvent:FireServer();
+	print("Bought Shotgun")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Shotgun";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_8.Parent = ShotGun
+
+FireAxe.Name = "Fire Axe"
+FireAxe.Parent = Weapons
+FireAxe.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+FireAxe.Position = UDim2.new(0.349195391, 0, 3.08333325, 0)
+FireAxe.Size = UDim2.new(0, 104, 0, 25)
+FireAxe.Font = Enum.Font.SourceSans
+FireAxe.Text = "Fire Axe"
+FireAxe.TextColor3 = Color3.fromRGB(255, 255, 1)
+FireAxe.TextSize = 14.000
+FireAxe.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.fireaxe:FireServer();
+	print("Bought Fire Axe")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Fire Axe";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_9.Parent = FireAxe
+
+GolfClub.Name = "Golf Club"
+GolfClub.Parent = Weapons
+GolfClub.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+GolfClub.Position = UDim2.new(0.679655194, 0, 3.08333325, 0)
+GolfClub.Size = UDim2.new(0, 104, 0, 25)
+GolfClub.Font = Enum.Font.SourceSans
+GolfClub.Text = "Golf Club"
+GolfClub.TextColor3 = Color3.fromRGB(255, 255, 1)
+GolfClub.TextSize = 14.000
+GolfClub.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.golf:FireServer();
+	print("Bought Golf Club")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Golf Club";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_10.Parent = GolfClub
+
+PrideFlag.Name = "PrideFlag"
+PrideFlag.Parent = Weapons
+PrideFlag.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+PrideFlag.Position = UDim2.new(0.349195391, 0, 4.58333302, 0)
+PrideFlag.Size = UDim2.new(0, 104, 0, 25)
+PrideFlag.Font = Enum.Font.SourceSans
+PrideFlag.Text = "Pride Flag"
+PrideFlag.TextColor3 = Color3.fromRGB(255, 255, 1)
+PrideFlag.TextSize = 14.000
+PrideFlag.MouseButton1Down:Connect(function()
+    game.ReplicatedStorage.ToolEvents.pride:FireServer();
+	print("Bought Pride Flag")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Bought Pride Flag";
+		Icon = "";
+		Duration = 3; 
+	})
+end)
+
+UICorner_11.Parent = PrideFlag
+
+Teleports.Name = "Teleports"
+Teleports.Parent = ScrollingFrame
+Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 1)
+Teleports.BorderSizePixel = 0
+Teleports.Position = UDim2.new(0, 0, 0.35755676, 0)
+Teleports.Size = UDim2.new(0, 348, 0, 24)
+Teleports.Font = Enum.Font.Gotham
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleports.TextSize = 14.000
+
+InsideVault.Name = "InsideVault"
+InsideVault.Parent = Teleports
+InsideVault.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+InsideVault.Position = UDim2.new(0.0187356174, 0, 1.58333325, 0)
+InsideVault.Size = UDim2.new(0, 104, 0, 25)
+InsideVault.Font = Enum.Font.SourceSans
+InsideVault.Text = "Inside Vault"
+InsideVault.TextColor3 = Color3.fromRGB(255, 255, 1)
+InsideVault.TextSize = 14.000
+InsideVault.MouseButton1Down:Connect(function()
+    print("Teleported Inside Vault")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Teleported Inside Vault";
+		Icon = "";
+		Duration = 3; 
+	})
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-315.8, 10.5, -506.8)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+UICorner_12.Parent = InsideVault
+
+UICorner_13.Parent = Teleports
+
+SS.Name = "SS"
+SS.Parent = Teleports
+SS.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+SS.Position = UDim2.new(0.349195391, 0, 1.58333325, 0)
+SS.Size = UDim2.new(0, 104, 0, 25)
+SS.Font = Enum.Font.SourceSans
+SS.Text = "Safe Spot"
+SS.TextColor3 = Color3.fromRGB(255, 255, 1)
+SS.TextSize = 14.000
+SS.MouseButton1Down:Connect(function()
+    print("Teleported to SS")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Teleported to Safe Spot";
+		Icon = "";
+		Duration = 3; 
+	})
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-297, 72, -232.5)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+UICorner_14.Parent = SS
+
+SS2.Name = "SS2"
+SS2.Parent = Teleports
+SS2.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+SS2.Position = UDim2.new(0.679655194, 0, 1.58333325, 0)
+SS2.Size = UDim2.new(0, 104, 0, 25)
+SS2.Font = Enum.Font.SourceSans
+SS2.Text = "Safe Spot 2"
+SS2.TextColor3 = Color3.fromRGB(255, 255, 1)
+SS2.TextSize = 14.000
+SS2.MouseButton1Down:Connect(function()
+    print("Teleported to SS2")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Teleported to SS2";
+		Icon = "";
+		Duration = 3; 
+	})
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-313.5, 42.6, -522.7)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+UICorner_15.Parent = SS2
+
+SS3.Name = "SS3"
+SS3.Parent = Teleports
+SS3.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+SS3.Position = UDim2.new(0.0187356174, 0, 3.08333325, 0)
+SS3.Size = UDim2.new(0, 104, 0, 25)
+SS3.Font = Enum.Font.SourceSans
+SS3.Text = "Safe Spot 3"
+SS3.TextColor3 = Color3.fromRGB(255, 255, 1)
+SS3.TextSize = 14.000
+SS3.MouseButton1Down:Connect(function()
+    print("Teleported to SS3")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Teleported to SS3";
+		Icon = "";
+		Duration = 3; 
+	})
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(354.4, 9.6, -138.2)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+UICorner_16.Parent = SS3
+
+Infrontofbank.Name = "Infrontofbank"
+Infrontofbank.Parent = Teleports
+Infrontofbank.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+Infrontofbank.Position = UDim2.new(0.349195391, 0, 3.08333325, 0)
+Infrontofbank.Size = UDim2.new(0, 104, 0, 25)
+Infrontofbank.Font = Enum.Font.SourceSans
+Infrontofbank.Text = "Bank"
+Infrontofbank.TextColor3 = Color3.fromRGB(255, 255, 1)
+Infrontofbank.TextSize = 14.000
+Infrontofbank.MouseButton1Down:Connect(function()
+    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-248.9, 9.6, 438.4)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+end)
+
+UICorner_17.Parent = Infrontofbank
+
+Other.Name = "Other"
+Other.Parent = ScrollingFrame
+Other.BackgroundColor3 = Color3.fromRGB(255, 255, 1)
+Other.BorderSizePixel = 0
+Other.Position = UDim2.new(0, 0, 0.61095047, 0)
+Other.Size = UDim2.new(0, 348, 0, 24)
+Other.Font = Enum.Font.Gotham
+Other.Text = "Other"
+Other.TextColor3 = Color3.fromRGB(0, 0, 0)
+Other.TextSize = 14.000
+
+Speed.Name = "Speed"
+Speed.Parent = Other
+Speed.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+Speed.Position = UDim2.new(0.0187356174, 0, 1.58333325, 0)
+Speed.Size = UDim2.new(0, 104, 0, 25)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 1)
+Speed.TextSize = 14.000
+Speed.MouseButton1Down:Connect(function()
+    print("Speed Enabled")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Speed Enabled (Don't press shift)";
+		Icon = "";
+		Duration = 3; 
+	})
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 75
+    end)
+
+UICorner_18.Parent = Speed
+
+UICorner_19.Parent = Other
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Other
+Noclip.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+Noclip.Position = UDim2.new(0.349195391, 0, 1.58333325, 0)
+Noclip.Size = UDim2.new(0, 104, 0, 25)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 1)
+Noclip.TextSize = 14.000
+Noclip.MouseButton1Down:Connect(function()
+    print("Broken")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Broken, use Infinite Yeild noclip";
+		Icon = "";
+		Duration = 3; 
+	})
+
+UICorner_20.Parent = Noclip
+
+IF.Name = "IF"
+IF.Parent = Other
+IF.BackgroundColor3 = Color3.fromRGB(60, 65, 1)
+IF.Position = UDim2.new(0.679655194, 0, 1.58333325, 0)
+IF.Size = UDim2.new(0, 104, 0, 25)
+IF.Modal = true
+IF.Font = Enum.Font.SourceSans
+IF.Text = "Infinite Yeild"
+IF.TextColor3 = Color3.fromRGB(255, 255, 1)
+IF.TextSize = 14.000
+IF.MouseButton1Down:Connect(function()
+    loadstring(game:HttpGet("http://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+UICorner_21.Parent = IF
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.212643683, 0, 0.837104082, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "garbage ui made by logicPatek"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 1)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.ZIndex = 1000
+
+ImageLabel.Parent = drag
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.112359554, 0, -0.657894731, 0)
+ImageLabel.Size = UDim2.new(0, 435, 0, 272)
+ImageLabel.ZIndex = -1
+ImageLabel.Image = "rbxassetid://297694126"
+
+-- Scripts:
+
+local function NITGMO_fake_script() -- drag.Dragify 
+	local script = Instance.new('LocalScript', drag)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 1
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(NITGMO_fake_script)()
+end)
