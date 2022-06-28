@@ -415,12 +415,13 @@ Infrontofbank.Text = "Bank"
 Infrontofbank.TextColor3 = Color3.fromRGB(255, 255, 1)
 Infrontofbank.TextSize = 14.000
 Infrontofbank.MouseButton1Down:Connect(function()
-    local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-248.9, 9.6, 438.4)
-local humanoid = game.Players.LocalPlayer.Character.Humanoid
-humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-wait(0.1)
-pl.CFrame = location
+  print("Teleported to broekn")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Barb-Blox Lane"; 
+		Text = "Broken";
+		Icon = "";
+		Duration = 3; 
+	})
 end)
 
 UICorner_17.Parent = Infrontofbank
