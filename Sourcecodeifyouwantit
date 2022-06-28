@@ -69,6 +69,7 @@ drag.BorderSizePixel = 0
 drag.Position = UDim2.new(0.805486085, 0, 0.75983396, 5)
 drag.Size = UDim2.new(0, 356, 0, 38)
 drag.ZIndex = 100
+drag.ResetOnSpawn = false
 
 Frame.Parent = drag
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
